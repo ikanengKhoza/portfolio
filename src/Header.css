@@ -1,0 +1,16 @@
+
+.header-buttons {
+    display: flex;
+    gap: 3px;
+}
+
+.image-icon {
+    width: 60px;
+    height: 64px;
+}
+
+.pic-pro {
+    border-radius: 50%;
+    max-width: 100px;
+    max-height: 100px;
+}
