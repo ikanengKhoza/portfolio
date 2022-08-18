@@ -3,11 +3,11 @@ import "./Skills.css";
 const Skills = () => {
   return (
     <div>
-      <h2>Skills</h2>
+      <h1 className="skills" id="skills-section">Skills</h1>
       <div className="icons">
         <div>
           <img className="image-icon" src="./reacticon.png" alt="react-icon" />
-          REACT
+          <h3>REACT</h3>
         </div>
 
         <div>
@@ -16,22 +16,22 @@ const Skills = () => {
             src="./javascripticon.png"
             alt="javascript-icon"
           />
-          JAVASCRIPT
+          <h3>JAVASCRIPT</h3>
         </div>
 
         <div>
           <img className="image-icon" src="./nodejs.png" alt="node-icon" />
-          NODE.js
+          <h3>NODE.JS</h3>
         </div>
 
         <div>
           <img className="image-icon" src="./htmlicon.png" alt="html" />
-          HTML
+          <h3>HTML</h3>
         </div>
 
         <div>
           <img className="image-icon" src="./cssicon.png" alt="css-icon" />
-          CSS
+          <h3>CSS</h3>
         </div>
 
         <div>
@@ -40,12 +40,12 @@ const Skills = () => {
             src="./postgresql.png"
             alt="postgresSQL"
           />
-          POSTGRES SQL
+          <h3>POSTGRES SQL</h3>
         </div>
 
         <div>
           <img className="image-icon" src="./bootstrap.png" alt="bootstrap" />
-          bootstrap
+          <h3>BOOTSTRAP</h3>
         </div>
 
         <div>
@@ -54,12 +54,12 @@ const Skills = () => {
             src="./materialicon.png"
             alt="material-icon"
           />
-          material ui
+          <h3>MATERIAL UI</h3>
         </div>
 
         <div>
           <img className="image-icon" src="./github.png" alt="github-icon" />
-          github
+          <h3>GITHUB</h3>
         </div>
       </div>
     </div>

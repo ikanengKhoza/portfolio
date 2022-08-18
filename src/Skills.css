@@ -1,12 +1,17 @@
-
-
 .icons {
-    
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 10px;
         justify-content: center;
         padding: 40px;
         border-radius: 50%;
-    
+
+}
+
+.skills {
+        padding: 20px;
+        font-weight: 200px;
+        letter-spacing: 2px;
+        gap: 40px;
+        margin-top: 100px;
 }

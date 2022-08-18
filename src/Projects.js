@@ -5,14 +5,16 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
-import "./Home.css";
+import "./Projects.css";
 
 const Home = () => {
   return (
     <>
-      <h2>Projects</h2>
-      <div className="projects">
-        <Card sx={{ maxWidth: 345 }}>
+    <div>
+    <h1 className="h1-projects">Projects</h1>
+    </div>
+      <div className="projects" id="projects">
+        <Card className="card" sx={{ maxWidth: 345 }}>
           <CardMedia
             component="img"
             height="300"
@@ -38,7 +40,7 @@ const Home = () => {
           </CardActions>
         </Card>
 
-        <Card sx={{ maxWidth: 345 }}>
+        <Card className="card" sx={{ maxWidth: 345 }}>
           <CardMedia
             component="img"
             height="300"
@@ -61,7 +63,7 @@ const Home = () => {
           </CardActions>
         </Card>
 
-        <Card sx={{ maxWidth: 345 }}>
+        <Card className="card" sx={{ maxWidth: 345 }}>
           <CardMedia
             component="img"
             height="300"
@@ -87,7 +89,7 @@ const Home = () => {
           </CardActions>
         </Card>
 
-        <Card sx={{ maxWidth: 345 }}>
+        <Card className="card" sx={{ maxWidth: 345 }}>
           <CardMedia
             component="img"
             height="300"
