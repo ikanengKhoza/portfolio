@@ -4,8 +4,11 @@ import "./Header.css";
 const Header = () => {
   return (
     <div className="header-level">
-      <h1>Hello I'm Ika</h1>
-      <p>I build interesting things on the internet...</p>
+      <h1>Hello I'm Ika | Software Developer</h1>
+      <p className="header-paragraph">
+        I'm curious, self driven full stack developer <br></br>
+        who is passionate about web development
+      </p>
       <div className="header-buttons">
         <Button variant="contained" color="secondary" size="small">
           Resume
