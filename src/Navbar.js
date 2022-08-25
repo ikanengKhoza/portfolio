@@ -6,7 +6,6 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 
-
 const ButtonAppBar = () => {
   return (
     <Box sx={{ flexGrow: 1 }}>
@@ -19,12 +18,20 @@ const ButtonAppBar = () => {
             aria-label="menu"
             sx={{ mr: 2 }}
           ></IconButton>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          </Typography>
-          <Button id="about" color="inherit">About</Button>
-          <Button color="inherit" href="#projects">Projects</Button>
-          <Button color="inherit" href="#skills-section">Skills</Button>
-          <Button color="inherit" href="#contact-section">Contact</Button>
+          <Typography
+            variant="h6"
+            component="div"
+            sx={{ flexGrow: 1 }}
+          ></Typography>
+          <Button color="inherit" href="#projects">
+            Projects
+          </Button>
+          <Button color="inherit" href="#skills-section">
+            Skills
+          </Button>
+          <Button color="inherit" href="#contact-section">
+            Contact
+          </Button>
         </Toolbar>
       </AppBar>
     </Box>
