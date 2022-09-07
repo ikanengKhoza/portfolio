@@ -3,17 +3,12 @@
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     justify-content: center;
-    align-content: center;
-    border-radius: 50%;
-    gap: 20px;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .card {
     align-content: center;
-    padding: 100px;
-    align-content: center;
-    gap: 20px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .h1-projects {
